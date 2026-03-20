@@ -21,8 +21,8 @@ export const routes = createBrowserRouter([
                     { path: "movie", element: <MoviesPage />},  ]
             },
             { path: "movie/:id", element: <MovieInfoPage /> },
-
-
         ],
     },
-]);
+], {
+    basename: "/react-control"
+});
