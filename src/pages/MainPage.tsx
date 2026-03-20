@@ -40,7 +40,7 @@ export const MainPage = () => {
                             </div>
                         ))
                     ) : (
-                        <p className="text-center text-gray-500">Loading movies...</p>
+                        <p className="text-center text-gray-500">Loading movies..</p>
                     )}
                 </Slider>
 
