@@ -24,5 +24,5 @@ export const routes = createBrowserRouter([
         ],
     },
 ], {
-    basename: "/react-control"
+    basename: "/react_control"
 });
